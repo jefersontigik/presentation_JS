@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Teste de apresentação</title>
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/beige.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Pequeno teste de apresentação!</h1>
+                <ul>
+                    <h5 class="fragment">Mostra como é possível criar uma apresentação no Browser:</h5>
+                </ul>
+            </section>
+            <section>
+                <h1>Teste de transição</h1>
+                <h5>
+                    The created HTML file will contain basic HTML elements.
+                </h5>
+            </section>
+            <section>
+                <h2>Outra transição</h2>
+                <h6>
+                    Now let's add a CSS file. We will add a few styles in it to make the page look better. 
+                </h6>
+            </section>
+            <section>
+                <h2>Mais outra transição</h2>
+                <ul>
+                    <li class="fragment"> <h5>O JavaScript, como o próprio nome sugere, é uma linguagem de scripting.</h5></li>
+                    <li class="fragment"> <h5>O JavaScript também possui grande tolerância a erros.</h5></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Uma transição com vídeo da web:</h2>
+                
+                <iframe width="660" height="415" src="https://www.youtube.com/embed/slV0IQ5T1NQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                
+            </section>
+
+            <section>
+                <h2>Uma transição com vídeo do PC</h2>
+                <p>
+                    <video width="560" height="315" src="C:\Users\jefti\OneDrive\SENAC-Viamão\Turma 1240\Internet\Aulas\Aula_1\A História da Internet - TecMundo.mp4" frameborder="0" preload="auto" controls></video>
+                </p>
+                
+            </section>
+
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <!--script src="js/reveal.js"></!--script-->
+
+    <script>
+        Reveal.initialize({
+            autoSlide: false,
+            center: true,
+            controls: false,
+            mouseWheel: true,
+            transition: 'concave',
+            dependencies: [
+                {
+                    src: 'plugin/zoom-js/zoom.js',
+                    async: true
+                }
+            ]
+        });
+    </script>
+
+    <!--script>
+        Reveal.initialize({
+            dependencies: [
+                { src: 'plugin/markdown/marked.js' },
+                { src: 'plugin/markdown/markdown.js' },
+                { src: 'plugin/notes/notes.js', async: true },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+            ]
+        });
+    </script-->
+</body>
+</html>

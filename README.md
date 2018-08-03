@@ -1,2 +1,1 @@
-# presentation_JS
-Another presentation
+# live-javascript
